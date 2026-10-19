@@ -1,0 +1,393 @@
+/*For all Files*/
+:root {
+  position: absolute;
+}
+
+html {
+  background-color: #FBEED7;
+  margin-top: 0 auto;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  justify-content: center;
+  align-items: center;
+  min-width: 1024px;
+}
+
+/*title with the logo*/
+.logoandtitle {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: #181715;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/* for the main page header */
+.title1 {
+  color: #181715;
+  font-size: 80px;
+  text-align: center;
+}
+
+
+header {
+  text-align: center;
+  font-size: 30px;
+  font-family: Garamond;
+  font-weight: bold;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header h1,
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: Garamond;
+  text-align: center;
+}
+
+h3 {
+  font-size: 23px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: Garamond;
+}
+
+hr {
+  height: 5px;
+  background-color: #a68069;
+}
+
+/*Java navigation part*/
+
+nav {
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.navarea {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #422f1f;
+  overflow: hidden;
+  transition: 0.3s;
+  padding-top: 5%;
+  padding-bottom: 0;
+}
+
+.navarea a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #d3c3c3;
+  display: block;
+  transition: 0.3s;
+  padding-top: 10px;
+}
+
+.navarea a:hover {
+  color: #4d4d4d;
+}
+
+.navarea .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+span {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 1.3rem;
+}
+
+ul,
+ol {
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+/* footer part */
+.lastpart {
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.lastpartinmission {
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+
+
+/* Home CSS */
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid #97876d;
+  box-shadow: 20px 20px 50px 15px rgb(182, 165, 117);
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+
+/*About Us CSS*/
+.aboutus {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.container {
+  column-gap: normal;
+  align-items: center;
+}
+.text1 {
+  padding-left: 30px;
+}
+
+.social-icons {
+  display: grid;
+  font-size: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  padding-left: 100px;
+  text-align: center;
+}
+
+
+/*Delicacy CSS*/
+.dish,
+.kakanin,
+.dessert,
+.dishback,
+.kakaninback,
+.dessertback {
+  font-size: 40px;
+  font-family: Garamond;
+  background-color: #57473b;
+  color: #FBEED7;
+  text-align: center;
+}
+
+.dishback:hover,
+.kakaninback:hover,
+.dessertback:hover {
+  transform: scale(1.1);
+}
+
+.foods {
+  border-radius: 20%;
+  border: 3px solid #7e7066;
+}
+
+.foods:hover,
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.word1 {
+  padding-left: 140px;
+  font-size: 30px;
+  word-spacing: 310px;
+  min-width: 1024px;
+}
+
+.word2 {
+  font-size: 30px;
+  word-spacing: 220px;
+  padding-left: 100px;
+}
+
+.word3 {
+  font-size: 30px;
+  word-spacing: 228px;
+  padding-left: 120px;
+}
+
+/*Lechon*/
+.image6 {
+  text-align: center;
+}
+
+.text {
+  padding-left: 20 px;
+}
+
+.ingre1 {
+  padding-bottom: 135px;
+}
+
+/*Siomai (img1) , Gulamann (img2) */
+.image1,
+.image2 {
+  padding-top: 50px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.ingre2 {
+  padding-bottom: 80px;
+}
+
+/*Pater , img6*/
+.ingre3 {
+  padding-bottom: 145px;
+}
+
+/*PutoBumbong , img6*/
+.ingre4 {
+  padding-bottom: 320px;
+}
+
+/*Palitaw , img6*/
+.ingre5 {
+  padding-bottom: 195px;
+}
+
+/*Kutsinta , img6*/
+.ingre6 {
+  padding-bottom: 237px;
+}
+
+/*MangoFloat*/
+.ingre7 {
+  padding-bottom: 350px;
+}
+
+.image {
+  padding-top: 40px;
+  text-align: center;
+}
+
+/*Gulaman , img2*/
+.ingre8 {
+  padding-bottom: 470px;
+}
+
+/*Maja*/
+.ingre9 {
+  padding-bottom: 345px;
+}
+
+.image {
+  padding-top: 40px;
+  text-align: center;
+}
+
+/*Recommendation CSS*/
+.container1 {
+  display: grid;
+  grid-template-columns: 5fr 3.5fr 1fr;
+  column-gap: 1px;
+}
+
+.text1 {
+  padding-left: 30px;
+}
+
+.places:hover,
+iframe:hover {
+  transform: scale(1.1);
+}
+
+.place {
+  font-size: 35px;
+  font-family: Garamond;
+  background-color: #57473b;
+  color: #FBEED7;
+  text-align: center;
+}
+
+.loc {
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.addtext,
+.pic {
+  text-align: center;
+}
+
+/*Recommendation back to top area*/
+.toparea {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*Mission CSS*/
+.missionpic {
+  border-radius: 50px;
+  border-color: #57473b thick solid;
+}
+
+.mission {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.missiondefinition{
+  font-size: 23px ;
+}
